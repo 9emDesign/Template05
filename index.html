@@ -7,48 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
         <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
-        <link rel="stylesheet" type="text/css" href="css960grid.css" />
+        <link rel="stylesheet" type="text/css" href="css/css960grid.css" />
         <link rel="stylesheet" href="styles.css">
         <script src="jquery-3.3.1.min.js"></script>
         <script src="script.js"></script>
         <style>
-			/* Column margins */
-			.col_12, /* full width */
-			.col_9, /* 3/4 width */
-			.col_8, /* 2/3 width */
-			.col_6, /* half width */
-			.col_5, /* half width */
-			.col_4, /* 1/3 width */
-			.col_3, /* 1/4 width */
-			.col_13/* full width */ {
-				/*height: 50px;*/
-				margin-top: 5px;/*top margin space*/
-				margin-bottom: 5px;/*bottom margin space*/
-				/*text-align:left;*/
-				display: table-cell;
-				/*vertical-align:center;*/
-			}
-			.col_13 {
-				height: 50px;
-			}/* full width footer*/
-			.col_12 {
-				height: 333px;
-			}/* full width header*/
-			.col_9 {
-				height: 300px;
-			}/* 3/4 width */
-			.col_8 {
-				height: 330px;
-			}/* 2/3 width */
-			.col_6 {
-				height: 300px;
-			}/* half width */
-			.col_4 {
-				height: 330px;
-			}/* 1/3 width */
-			.col_3 {
-				height: 300px;
-			} /* 1/4 width */
         </style>
 
     </head>
@@ -135,10 +98,10 @@
             </div>
         </div>
         <!--<div class="row">
-        <div class="col_9 first scroll" style="background-color:#6cc">
+        <div class="col_9 first  " style="background-color:#6cc">
 
         <p>&nbsp; Here�s a 3/4 width column</p></div>
-        <aside class="col_3 last scroll" style="background-color:#6CC"><p>&nbsp; And it�s 1/4 width counterpart<br/>Lorem ipsum dolor sit amet,
+        <aside class="col_3 last  " style="background-color:#6CC"><p>&nbsp; And it�s 1/4 width counterpart<br/>Lorem ipsum dolor sit amet,
         at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex. His iisque neglegentur in.
         Nec ad veri nihil nemore. Ubique audire fabulas ne usu, case error nostrum vis an. Vim dictas insolens te,
         ne ornatus verterem nominati eum. Putent constituam inciderint per eu, ad quas fabellas vel, melius forensibus quo id.
@@ -146,7 +109,7 @@
         id nam zril sapientem molestiae.</p></aside>
         </div>-->
         <!--<div class="row">
-        <div class="col_8 first scroll" style="background-color:#CF0">
+        <div class="col_8 first  " style="background-color:#CF0">
         <picture>
         <source  media="(min-width: 850px)" srcset="images/jump_tablet_960.jpg">
         <source  media="(min-width: 750px)" srcset="images/jump_tablet.jpg">
@@ -160,7 +123,7 @@
         Iriure denique mei eu, eu qui docendi albucius. Ex nullam salutandi vim, eros ridens nec te. Ex vim exerci iuvaret,
         id nam zril sapientem molestiae.
         </p></div>
-        <div class="col_4 last scroll" style="background-color:#9CC"><h3>And it's 1/3 width counterpart.</h3><p>Lorem ipsum dolor sit amet,
+        <div class="col_4 last  " style="background-color:#9CC"><h3>And it's 1/3 width counterpart.</h3><p>Lorem ipsum dolor sit amet,
         at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex. His iisque neglegentur in.
         Nec ad veri nihil nemore. Ubique audire fabulas ne usu, case error nostrum vis an. Vim dictas insolens te,
         ne ornatus verterem nominati eum. Putent constituam inciderint per eu, ad quas fabellas vel, melius forensibus quo id.
@@ -168,19 +131,19 @@
         id nam zril sapientem molestiae.</p></div>
         </div>-->
         <div class="row">
-            <div class="col_4 first" style="background-color:#9CC">
+            <section class="col_4 first" style="background-color:#9CC">
                 <p>
                     I�m a 1/3 width first
                 </p>
-            </div>
-            <div class="col_8 last" style="background-color:#CF0">
+            </section>
+            <section class="col_8 last" style="background-color:#CF0">
                 <p>
                     And I�m a 2/3 width last
                 </p>
-            </div>
+            </section>
         </div>
         <div class="row">
-            <article class="col_6 first scroll" style="background-color:#9CC">
+            <article class="col_6 first  " style="background-color:#9CC">
                 <h2>Want to go halfsies?</h2>
                 <p>
                     ipsum dolor sit amet,
@@ -194,7 +157,7 @@
                     Iriure denique mei eu, eu qui docendi albucius.
                 </p>
             </article>
-            <article class="col_6 last scroll" style="background-color:#CF0">
+            <article class="col_6 last  " style="background-color:#CF0">
                 <h2>Sure, I�ll go halfsies!</h2>
                 <p>
                     ipsum dolor sit amet,
@@ -210,7 +173,7 @@
             </article>
         </div>
         <div class="row">
-            <div class="col_3 first scroll" style="background-color:#CF0">
+            <article class="col_3 first  " style="background-color:#CF0">
                 <h3>Here's a 1/3 width column</h3>
                 <p>
                     <img class="fl" src="images/zman1.jpg">
@@ -222,8 +185,8 @@
                 </p>
                 <br/>
                 <br/>
-            </div>
-            <div class="col_3 scroll" style="background-color:#cf0">
+            </article>
+            <article class="col_3  " style="background-color:#cf0">
                 <h3>I�m a 1/3 width column, too!</h3>
                 <p><img class="fl" src="images/zman2.jpg">
                     Lorem ipsum dolor sit amet, at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex.
@@ -234,8 +197,8 @@
                 </p>
                 <br/>
                 <br/>
-            </div>
-            <div class="col_3 last scroll" style="background-color:#cf0">
+            </article>
+            <article class="col_3 last  " style="background-color:#cf0">
                 <h3>I�m the last 1/3 width :(</h3>
                 <p><img class="fl" src="images/zman3.jpg">
                     Lorem ipsum dolor sit amet, at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex.
@@ -246,7 +209,7 @@
                 </p>
                 <br/>
                 <br/>
-            </div>
+            </article>
         </div>
         <div class="row">
             <article class="col_5 first" style="background-color:#9cc">
@@ -255,11 +218,12 @@
                     <br/>
                     <img class="imgborder" src="images/zayno4.jpg">
                     <br/>
-                    <div class="black">
+                    <div class="black"><p>
                         Lorem ipsum dolor sit amet, at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex.
                         His iisque neglegentur in. Nec ad veri nihil nemore. Ubique audire fabulas ne usu, case error nostrum vis an.
                         <br/>
                         <br/>
+                      </p>
                     </div>
                 </p>
             </article>
@@ -270,11 +234,12 @@
             <p>
                 <br/>
                 <img class="imgborder" src="images/zayno2.jpg">
-                <div class="black">
+                <div class="black"><p>
                     Lorem ipsum dolor sit amet, at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex.
                     His iisque neglegentur in. Nec ad veri nihil nemore. Ubique audire fabulas ne usu, case error nostrum vis an.
                     <br/>
                     <br/>
+                  </p>
                 </div>
             </p>
         </article>
@@ -284,11 +249,12 @@
                 <br/>
                 <img class="imgborder" src="images/zayno3.jpg">
                 <br/>
-                <div class="black">
+                <div class="black"><p>
                     Lorem ipsum dolor sit amet, at malis soluta assentior mea, exerci delicata adipiscing at per, pro solet dolores ex.
                     His iisque neglegentur in. Nec ad veri nihil nemore. Ubique audire fabulas ne usu, case error nostrum vis an.
                     <br/>
                     <br/>
+                  </p>
                 </div>
             </p>
         </article>
@@ -305,13 +271,13 @@
             </div>
         </article>
         <div class="row">
-            <div align="center" class="col_13" style="background-color:#705c59">
+            <footer align="center" class="col_13" style="background-color:#705c59">
                 <p>
                     Here's a full width footer column
                     <br/>
                     <a href="index.html">home</a>
                 </p>
-            </div>
+            </footer>
         </div>
 
     </body>
